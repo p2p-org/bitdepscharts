@@ -24,7 +24,7 @@ jobs:
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
       - name: Run chart-releaser
-        uses: bitdeps/helm-oci-charts-releaser@v0.1.0
+        uses: bitdeps/helm-oci-charts-releaser@caedceea2a5ab997c7e5469a999811dbb3d5b070 # v0.1.5
         with:
             oci_registry: ghcr.io/bitdepscharts
             oci_username: dennybaa
